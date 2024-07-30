@@ -37,6 +37,26 @@ pre {
 	}
 }
 
+figure {
+	&.alignleft,
+	&.alignright {
+		&::after {
+			@apply clear-both;
+		}
+	}
+
+	&.alignleft {
+		@apply float-left;
+		@apply md:mr-4;
+	}
+
+	&.alignright {
+		@apply float-right;
+		@apply md:ml-4;
+	}
+
+}
+
 figcaption {
     @apply text-sm py-2 mb-4;
 	@apply flex justify-end max-w-screen-lg;
