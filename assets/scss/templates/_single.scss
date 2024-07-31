@@ -46,7 +46,7 @@
         @apply bg-black;
 
         > img {
-            @apply max-h-[300px] object-cover object-center;
+            @apply max-h-[300px] object-cover object-bottom;
             @apply md:max-h-[400px] lg:max-h-[500px];
         }        
     }
